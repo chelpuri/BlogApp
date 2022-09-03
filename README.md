@@ -6,4 +6,4 @@
  2. Users can comment on articles
  3. Users can write articles
  4. Users can like Articles.
- 5. Aricles have comments
+ 5. Articles have comments
