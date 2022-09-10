@@ -7,3 +7,4 @@
  3. Users can write articles
  4. Users can like Articles.
  5. Articles have comments
+ 6. code is added in the master branch
