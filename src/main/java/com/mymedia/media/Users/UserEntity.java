@@ -29,7 +29,7 @@ public class UserEntity extends BaseEntity {
     @OneToMany(mappedBy = "author", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     Set<ArticleEntity> authoredArticles;
     
-    @ManyToMany(mappedBy = "likers", fetch = FetchType.LAZY)
+    @(mappedBy = "likers", fetch = FetchType.LAZY)
     Set<ArticleEntity> likedArticles;
 
     @ManyToMany(fetch = FetchType.LAZY)
